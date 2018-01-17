@@ -56,9 +56,9 @@ font-weight: 700;
 
 h2{
 	text-align: center;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 20px;
-		color: #ffffff;
+    color: #ffffff;
 
 }
 
@@ -104,10 +104,10 @@ color: #ffffff;
 padding: 15px;
 margin-bottom: 15px;
 outline: none;
+	border: 1px solid rgba(255,255,255,.5);
 }
 	.field:focus {
 	border: 1px solid #ffffff;
-	padding: 14px;
 	}
 @media only screen and (max-width: 480px)  {
 	.information{
@@ -122,6 +122,10 @@ outline: none;
 	.field {
 	width: 90%;
 	}
+}
+
+.field::placeholder{
+	color: rgba(255,255,255,.7);
 }
 
 .submit{
