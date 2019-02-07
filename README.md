@@ -12,6 +12,8 @@ This project supports Heroku, Azure and Cloud Foundry.
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
+To join the Girl Develop It Orlando Slack team, please visit: http://gdi-orlando-slack.herokuapp.com/
+
 ## Settings
 
 You can set variables for your own purpose in `config.js` or environment variables.
